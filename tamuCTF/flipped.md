@@ -5,7 +5,7 @@
   A bit-flipping attack in web security targets the integrity of data by manipulating individual bits within it. It aims to tamper with the information being transmitted or stored.
 
 - Now, why is this a bit-flipping attack challange?
-- 1. AES-128-CBC is used to encrypt/decrypt the session cookie (see https://crypto.stackexchange.com/questions/66085/bit-flipping-attack-on-cbc-mode for more info).
+  1. AES-128-CBC is used to encrypt/decrypt the session cookie (see https://crypto.stackexchange.com/questions/66085/bit-flipping-attack-on-cbc-mode for more info).
   2. The server does not verify the integrity of the session cookie.
 
 - Here in the challange we can see that the ```admin``` value is ```0``` in ```{"admin": 0, "username": "guest"}```. now our goal is to chnage the value to a non zero value to get the flag.
