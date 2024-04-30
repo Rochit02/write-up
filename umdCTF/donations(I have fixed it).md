@@ -22,7 +22,7 @@ Since money can't be sent to other accounts, lets try sending it to Jeff Bezos a
 
 ![image](https://github.com/Rochit02/write-up/assets/150697578/aad39a8f-cffa-4231-9124-e853ee12a989)
 
-Now we have found the vulnarability from which we can bypass the server side condition and by sending money to our own account from our account will not help increase our money.
+Now we have found the vulnerability from which we can bypass the server side condition and by sending money to our own account from our account will not help increase our money.
 So, lets make more accounts and send money to our main account.
 To get the flag, we need to have minimum 5k currency in our main account of the challange.
 Once after we get more than 5k in our main account,
